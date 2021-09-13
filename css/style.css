@@ -18,6 +18,7 @@ a {
 
 .form-section {
   margin-top: 80px;
+  min-height: 70vh;
 }
 
 #form {
@@ -42,6 +43,12 @@ input:focus {
   font-size: 15px !important;
 }
 
+.fa-eye {
+  position: absolute;
+  right: 17%;
+  top: 61%;
+}
+
 .btnReg {
   background-color: #f9b52d !important;
   color: #0b0e11 !important;
@@ -55,8 +62,15 @@ input:focus {
 }
 
 @media (max-width: 768px) {
-  /* body {
-    background-image: none;
-    background-color: #000 !important;
-  } */
+  .logo {
+    margin-left: 20px;
+  }
+
+  .register {
+    margin-right: 10px;
+  }
+
+  .copy p {
+    font-size: 12px;
+  }
 }
